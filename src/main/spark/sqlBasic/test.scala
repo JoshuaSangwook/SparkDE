@@ -1,0 +1,5 @@
+package sqlBasic
+
+object test {
+  
+}
