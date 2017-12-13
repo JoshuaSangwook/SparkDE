@@ -12,6 +12,7 @@ object VectorBasic {
       .builder()
       .appName("VectorSample")
       .master("local[*]")
+      .config("spark.driver.host", "127.0.0.1")
       .getOrCreate()
 
     val v1 = Vectors.dense(0.1, 0.0, 0.2, 0.3);

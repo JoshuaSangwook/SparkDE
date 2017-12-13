@@ -50,7 +50,8 @@ object ClassificationBasic {
     // test data 로 진
     val assembled_test = assembler.transform(test)
     assembled_test.show()
-    model.transform(assembled_test).show()
+    
+    val result = model.transform(assembled_test).show()
 
   }
 
